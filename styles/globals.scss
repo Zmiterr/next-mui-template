@@ -1,0 +1,33 @@
+@import './fonts';
+@import './reset';
+
+
+$primaryFontColor: #FCFCFC;
+$mainBackground: #F4F5F7;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $mainBackground;
+  color: $primaryFontColor;
+  font-family: Inter, -apple-system, Roboto, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+   outline: none;
+  }
+}
